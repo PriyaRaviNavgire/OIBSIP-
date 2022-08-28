@@ -1,1 +1,196 @@
-# OIBSIP-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav class="flex items-center justify-between">
+            <div class="left flex items-center">
+                <div class="branding">
+                    <img src="./images/logo.png" alt="">
+                </div>
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#achievement">Achievement</a>
+                </div>
+            </div>
+            
+            <div class="right">
+                <a href="#contact"><button class="btn btn-primary">Contact</button></a>
+            </div>
+        </nav>
+        <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+                <img src="./images/SHUBH.jpg" alt="">
+            </div>
+            <div class="right flex-1">
+                <h6>Priya Navgire</h6>
+                <h1>I'm a computer science and engineering <span>Coder 
+
+                </span></h1>
+                <p>A strategic approach to website design and development.<br>
+                Making ideas come alive on the internet.<br>
+                Design is more than what is looks like & feels like. Design is how it works.</p>
+                <div>
+                    <button class="btn btn-secondary">DOWNLOAD CV</button>
+                </div>
+               
+            </div>
+        </div>
+    </div></header>
+
+    <section id="about" class="about">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <img class="about-me-img" src="./images/1646212564219.jpg" alt="">
+            </div>
+            <div class="flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello!YOU ARE READING ABOUT SHUBHANGI BHOYAR.</h3>
+                <p> I am pursuing my "Bachelor's degree" in "Information Technology Engineering" at D Y Patil College of Engineering, Talegaon, Pune. I love designing websites and am looking for more opportunities to work in coding on a freelancer basis.</p>
+            </div>
+            <div class="social">
+                <a href="#"><img src="./images/facebook.png" alt=""></a>
+                <a href="#"><img src="./images/twitter.png" alt=""></a>
+                <a href="#"><img src="./images/pintrest.png" alt=""></a>
+                <a href="#"><img src="./images/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1 class="section-heading"><span>My </span>Skills</h1>
+            <p>Skills made extra special & Be an expert on any field</p>
+            <div class="card-wrapper">
+                
+                <div class="card">
+                    <h2>C</h2>
+                    <p>(BEGINNER)</p>
+                </div>
+                <div class="card">
+                    <h2>C++</h2>
+                    <p>(BEGINNER)</p>
+                </div>
+                <div class="card">
+                    <h2>HTML</h2>
+                    <p>(ADVANCE)</p>
+                </div>
+                <div class="card">
+                    <h2>CSS</h2>
+                    <p>(BEGINNER)</p>
+                </div>
+                <div class="card">
+                    <h2>JS</h2>
+                    <p>(BEGINNER)</p>
+                </div>
+                <div class="card">
+                    <h2>java</h2>
+                    <p>(Beginner)</p>
+                </div>
+            
+            </div>
+
+        </div>
+    </section>
+
+<section class="freelancer">
+        <h1>I Am Available For Freelancer.</h1>
+        <p>A vast web of possibilities to improve your site!<br>
+        Build momentum by building better websites.<br>
+
+        Designing success through creative web design.</p>
+        <button class="btn btn-primary">Download CV</button>
+    </section>
+    <section id="achievement" class="achievement">
+        <div class="container">
+            <h1 class="section-heading"><span>My </span>Achievements </h1>
+            <p>Some of the achievements that I have achieved are here</p>
+
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        
+                    </div>
+                    <img src="./images/vit.jpeg" alt="">
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                        
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                       
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <span>Category</span>
+                       
+                    </div>
+                   
+                </div>
+    
+            </div>
+        </div>
+</section>
+  
+      <section id="contact" class="contact">
+    <div class="container">
+        <h1 class="section-heading">Contact <span>Me</span></h1>
+        <p>For all enquiries, please contact me using the form below</p>
+        <div class="card-wrapper">
+            <div class="card">
+                <h2>Call Me On</h2>
+                <h6>+91 8554016661 </h6>
+            </div>
+            <div class="card">
+                <h2>Email Me At</h2>
+                <h6>priyanavgire5555@gmail.com</h6>
+            </div>
+            <div class="card">
+                <h2>Address</h2>
+                <h6>Aurangabad</h6>
+            </div>
+        </div>
+        <div class="input-wrap">
+            <input type="text" placeholder="Your Name *">
+            <input type="email" placeholder="Your Email*">
+        </div>
+        <div class="input-wrap-2">
+            <input type="text" placeholder="Your Subject...">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+        </div>
+        <div class="btn-wrapper">
+            <button class="btn btn-primary">Send Message</button>
+        </div>
+
+    </div>
+</section>
+<footer>
+    <img class="footer-logo" src="./images/logo.svg" alt="">
+    <div class="copyright">
+        Copyright 2022 &copy; Name PD Template. All  Right Reserved.
+    </div>
+</footer>
+</body>
+</html>
+
+
+ 
